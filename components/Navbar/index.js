@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <>
       {/* <div className="bg-white"> */}
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="absolute inset-x-0 top-0 z-50 max-w-9xl mx-auto mb-1 ">
           <nav
             className="flex items-center justify-between p-6 lg:px-8"
             aria-label="Global"
