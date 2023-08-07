@@ -6,10 +6,10 @@ export default function OrderHistory() {
       <div className="bg-white shadow overflow-hidden sm:rounded-lg mb-3">
         <div className="px-4 py-5 sm:px-6">
           <h3 className="text-lg leading-6 font-medium text-gray-900">
-            Next JS & Typescript with Shopify Integration - Full Guide
+            Downtown Philadelphia Apartment Steps From Schuykill River Park
           </h3>
           <p className="mt-1 max-w-2xl text-sm text-gray-500">
-            0.0065 ETH
+            109.54 ETH
           </p>
         </div>
   
@@ -56,7 +56,7 @@ export default function OrderHistory() {
               <div className="sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow-md">
                   <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-white hover:bg-gray-100 md:py-4 md:text-md md:px-10">
-                    Watch the course
+                    Watch introductory video
                   </a>
                 </div>
               </div>
