@@ -7,18 +7,28 @@ import WalletAddress from "@/components/walletaddress"
 import OrderHistory from "@/components/orderhistory"
 import Items from "@/components/items"
 import Layout from "@/components/layout"
+import { getAllProperty } from "@/content/fetcher"
 
-export default function Home() {
+
+export default function Home({properties}) {
   return (
     <>
       <Layout>
             <Hero />
             <Breadcrumbs />
-            <WalletAddress />
-            <InfoWallet />
-            <OrderHistory />
-            <Items />
+            <Items properties={properties} />
       </Layout>
     </>
   )
+}
+
+
+
+export async function getStaticProps() {
+  const { data } = getAllProperty()
+  return {
+    props: {
+      properties: data
+    }
+  }
 }
