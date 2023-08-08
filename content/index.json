@@ -1,0 +1,258 @@
+[
+  {
+    "id": "1410474",
+    "type": "1 Bedroom Apartment",
+    "title": "Cozy 1 Bedroom Apartment in the Heart of the City",
+    "description": "Experience modern urban living in this stylish 1 bedroom apartment located in the bustling city center.",
+    "coverImage": "assets/apartments/ardence-and-bloom.webp",
+    "author": "Ardence & Bloom",
+    "link": "https://cityapartments.com/listings/cozy-1-bedroom-apartment",
+    "slug": "cozy-1-bedroom-apartment",
+    "features": [
+      "Spacious living room with natural light",
+      "Fully furnished and equipped kitchen",
+      "Convenient access to public transportation"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "1331625",
+    "type": "Studio Apartment",
+    "title": "Modern Studio Apartment with Spectacular Views",
+    "description": "Live in luxury in this contemporary studio apartment with breathtaking views of the city skyline.",
+    "coverImage": "assets/apartments/the-walnut-building.webp",
+    "author": "City Apartments Ltd.",
+    "link": "https://cityapartments.com/listings/modern-studio-apartment",
+    "slug": "modern-studio-apartment",
+    "features": [
+      "Open layout with stylish design",
+      "Floor-to-ceiling windows for ample natural light",
+      "Access to rooftop garden and fitness center"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "1112431",
+    "type": "2 Bedroom Apartment",
+    "title": "Spacious 2 Bedroom Apartment with Panoramic Views",
+    "description": "Enjoy the comfort of this spacious 2 bedroom apartment offering panoramic views of both the city and the surrounding nature.",
+    "coverImage": "assets/apartments/ardence.webp",
+    "author": "City Apartments Ltd.",
+    "link": "https://cityapartments.com/listings/spacious-2-bedroom-apartment",
+    "slug": "spacious-2-bedroom-apartment",
+    "features": [
+      "Master bedroom with en-suite bathroom",
+      "Modern kitchen with premium appliances",
+      "Private balcony overlooking the park"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "985237",
+    "type": "Loft Apartment",
+    "title": "Chic Loft Apartment in Historic Building",
+    "description": "Live in style in this chic loft apartment situated within a beautifully restored historic building.",
+    "coverImage": "assets/apartments/one-museum-square.webp",
+    "author": "City Apartments Ltd.",
+    "link": "https://cityapartments.com/listings/chic-loft-apartment",
+    "slug": "chic-loft-apartment",
+    "features": [
+      "High ceilings and exposed brick walls",
+      "Open loft layout with mezzanine bedroom",
+      "Walking distance to trendy cafes and shops"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "925927",
+    "type": "Penthouse Apartment",
+    "title": "Luxurious Penthouse Apartment with Stunning Views",
+    "description": "Experience ultimate luxury living in this breathtaking penthouse apartment with unparalleled city and ocean views.",
+    "coverImage": "assets/apartments/ten-thousand.webp",
+    "author": "Einshower & shoe",
+    "link": "https://cityapartments.com/listings/luxurious-penthouse-apartment",
+    "slug": "luxurious-penthouse-apartment",
+    "features": [
+      "Private rooftop terrace with jacuzzi",
+      "High-end finishes and designer furnishings",
+      "24/7 concierge and security services"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "896464",
+    "type": "Serviced Apartment",
+    "title": "Fully Serviced Apartment with Modern Amenities",
+    "description": "Experience hassle-free living in this fully serviced apartment offering a range of modern amenities and conveniences.",
+    "coverImage": "assets/apartments/respara.webp",
+    "author": "Respara",
+    "link": "https://cityapartments.com/listings/fully-serviced-apartment",
+    "slug": "fully-serviced-apartment",
+    "features": [
+      "Weekly cleaning and linen change",
+      "Access to on-site gym and business center",
+      "All utilities and Wi-Fi included"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "789654",
+    "type": "3 Bedroom Apartment",
+    "title": "Elegant 3 Bedroom Apartment with River Views",
+    "description": "Indulge in luxury in this elegant 3 bedroom apartment boasting stunning views of the river and cityscape.",
+    "coverImage": "https://example.com/apartments/riverside-view.webp",
+    "author": "Skyline Properties",
+    "link": "https://skylineproperties.com/listings/elegant-3-bedroom-apartment",
+    "slug": "elegant-3-bedroom-apartment",
+    "features": [
+      "Master suite with walk-in closet and private balcony",
+      "Gourmet kitchen with granite countertops",
+      "Access to private riverfront promenade"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "456321",
+    "type": "Duplex Apartment",
+    "title": "Modern Duplex Apartment with Urban Charm",
+    "description": "Experience the best of both worlds in this modern duplex apartment featuring sleek design and urban charm.",
+    "coverImage": "assets/apartments/musuem-tower.webp",
+    "author": "Metro Living Estates",
+    "link": "https://metrolivingestates.com/listings/modern-duplex-apartment",
+    "slug": "modern-duplex-apartment",
+    "features": [
+      "Two levels of spacious living space",
+      "Contemporary finishes and fixtures",
+      "Close proximity to cultural attractions"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "123789",
+    "type": "Garden Apartment",
+    "title": "Tranquil Garden Apartment with Private Oasis",
+    "description": "Escape to a tranquil oasis in this garden apartment surrounded by lush greenery and a serene atmosphere.",
+    "coverImage": "https://example.com/apartments/garden-retreat.webp",
+    "author": "Green Haven Residences",
+    "link": "https://greenhavenresidences.com/listings/tranquil-garden-apartment",
+    "slug": "tranquil-garden-apartment",
+    "features": [
+      "Private patio with garden views",
+      "Spacious layout with natural light",
+      "Access to communal outdoor spaces"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "987654",
+    "type": "Vintage Apartment",
+    "title": "Charming Vintage Apartment in Historical District",
+    "description": "Embrace the charm of the past in this vintage apartment located in a historical district full of character.",
+    "coverImage": "https://example.com/apartments/historical-charm.webp",
+    "author": "Heritage Homes",
+    "link": "https://heritagehomes.com/listings/charming-vintage-apartment",
+    "slug": "charming-vintage-apartment",
+    "features": [
+      "Original hardwood floors and ornate details",
+      "Antique fixtures and vintage-inspired decor",
+      "Walking distance to local museums and galleries"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "654987",
+    "type": "Beachfront Apartment",
+    "title": "Luxurious Beachfront Apartment with Ocean Breeze",
+    "description": "Experience beachside luxury in this stunning apartment with direct access to the sandy shores and ocean breeze.",
+    "coverImage": "https://example.com/apartments/beach-luxury.webp",
+    "author": "Seaside Realty",
+    "link": "https://seasiderealty.com/listings/luxurious-beachfront-apartment",
+    "slug": "luxurious-beachfront-apartment",
+    "features": [
+      "Private balcony overlooking the beach",
+      "Spa-inspired bathroom with ocean views",
+      "On-site beach club and water sports facilities"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "246813",
+    "type": "Studio Apartment",
+    "title": "Cozy Studio Apartment with Modern Furnishings",
+    "description": "Discover comfort and style in this cozy studio apartment featuring modern furnishings and a convenient location.",
+    "coverImage": "https://example.com/apartments/cozy-studio.webp",
+    "author": "Cosy Living Homes",
+    "link": "https://cityapartments.com/listings/cozy-studio-apartment",
+    "slug": "cozy-studio-apartment",
+    "features": [
+      "Compact layout with smart space utilization",
+      "Contemporary kitchenette with appliances",
+      "Walking distance to cafes and parks"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "135792",
+    "type": "3 Bedroom Apartment",
+    "title": "Elegant 3 Bedroom Apartment with Panoramic City Views",
+    "description": "Indulge in luxury living with this elegant 3 bedroom apartment offering breathtaking panoramic views of the city skyline.",
+    "coverImage": "https://example.com/apartments/elegant-3-bedroom.webp",
+    "author": "Elite Residences",
+    "link": "https://cityapartments.com/listings/elegant-3-bedroom-apartment",
+    "slug": "elegant-3-bedroom-apartment",
+    "features": [
+      "Master suite with walk-in closet and spa-like bathroom",
+      "Spacious living and dining areas for entertainment",
+      "Private access to building's wellness center"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "579324",
+    "type": "Duplex Apartment",
+    "title": "Modern Duplex Apartment with Lofted Design",
+    "description": "Experience contemporary living in this modern duplex apartment featuring a lofted design and sleek aesthetics.",
+    "coverImage": "https://example.com/apartments/modern-duplex.webp",
+    "author": "Urban Lofts Realty",
+    "link": "https://cityapartments.com/listings/modern-duplex-apartment",
+    "slug": "modern-duplex-apartment",
+    "features": [
+      "Two-level layout with open concept living space",
+      "Stainless steel kitchen appliances and granite countertops",
+      "Close proximity to cultural attractions and theaters"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "741258",
+    "type": "Garden Apartment",
+    "title": "Tranquil Garden Apartment with Private Outdoor Space",
+    "description": "Escape to a tranquil oasis in this garden apartment featuring lush greenery and a private outdoor space for relaxation.",
+    "coverImage": "https://example.com/apartments/tranquil-garden.webp",
+    "author": "Nature's Retreat Homes",
+    "link": "https://cityapartments.com/listings/tranquil-garden-apartment",
+    "slug": "tranquil-garden-apartment",
+    "features": [
+      "Spacious garden patio with seating and dining areas",
+      "Sunlit living room with garden views",
+      "Nature trails and parks within walking distance"
+    ],
+    "createdAt": ""
+  },
+  {
+    "id": "963852",
+    "type": "Luxury Loft",
+    "title": "Luxury Loft Living in Historic Warehouse",
+    "description": "Immerse yourself in luxury loft living within a meticulously renovated historic warehouse with industrial-chic charm.",
+    "coverImage": "https://example.com/apartments/luxury-loft.webp",
+    "author": "Warehouse Elegance Living",
+    "link": "https://cityapartments.com/listings/luxury-loft-apartment",
+    "slug": "luxury-loft-apartment",
+    "features": [
+      "Exposed brick walls and hardwood flooring",
+      "Open loft layout with gourmet kitchen and island",
+      "Private art gallery for resident exhibitions"
+    ],
+    "createdAt": ""
+  }
+]
