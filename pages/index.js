@@ -6,24 +6,19 @@ import Breadcrumbs from "@/components/breadcrumbs"
 import WalletAddress from "@/components/walletaddress"
 import OrderHistory from "@/components/orderhistory"
 import Items from "@/components/items"
+import Layout from "@/components/layout"
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <div className="relative bg-white overflow-hidden">
-        <div className="relative max-w-7xl mx-auto px-4">
-          <div className="fit">
+      <Layout>
             <Hero />
             <Breadcrumbs />
             <WalletAddress />
             <InfoWallet />
             <OrderHistory />
             <Items />
-            <Footer />
-          </div>
-        </div>
-      </div>
+      </Layout>
     </>
   )
 }
