@@ -10,7 +10,7 @@ export default function Hero() {
         Discover Your Dream Home: Where Every Door Opens to Possibility.
         Ready to Roam? Let's Find Your Next Dream Dwelling Together.
       </div>
-      <div className="mt-5 sm:mt-8 flex lg:justify-center ">
+      <div className="mt-5 sm:mt-8 flex justify-center lg:justify-center ">
         <div className="rounded-md shadow ">
           <a
             href="#"
