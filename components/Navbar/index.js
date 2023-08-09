@@ -57,9 +57,9 @@ export default function Navbar() {
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
                 href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm px-2 py-2 font-medium leading-6 border rounded-md text-white bg-orange-600 hover:bg-orange-700"
               >
-                Log in <span aria-hidden="true">&rarr;</span>
+                Connect Wallet <span aria-hidden="true"></span>
               </a>
             </div>
           </nav>
@@ -80,7 +80,7 @@ export default function Navbar() {
                   </span>
                   <img
                     className="h-32 w-auto"
-                    src="assets/logo/logo_transparent.png"
+                    src="/assets/logo/logo_transparent.png"
                     alt=""
                   />
                 </a>
@@ -113,7 +113,7 @@ export default function Navbar() {
                       href="#"
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
-                      Log in
+                      Connect Wallet
                     </a>
                   </div>
                 </div>
