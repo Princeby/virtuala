@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-export default function Items({properties}) {
+export default function Items({properties, Footer}) {
     return (
       <section className="grid md:grid-cols-2 gap-4 mb-5">
         { properties.map(property =>
@@ -31,6 +31,9 @@ export default function Items({properties}) {
                   className="mt-2 text-gray-500">
                   {property.description}
                 </p>
+                { Footer && 
+                    <Footer property={property}/>
+                }
               </div>
             </div>
           </div>

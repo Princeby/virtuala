@@ -3,19 +3,86 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 import Image from "next/image";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import abi from '../../Marketplace.json'
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Marketplace", href: "#" },
-  { name: "About", href: "#" },
+  { name: "Marketplace", href: "/marketplace" },
+  { name: "Sell Property", href: "/sellpage" },
 ];
+
+
+const notification = () =>  toast.success('Wallet is connected', {
+  position: "top-center",
+  autoClose: 5000,
+  hideProgressBar: false,
+  closeOnClick: true,
+  pauseOnHover: true,
+  draggable: true,
+  progress: undefined,
+  theme: "light",
+  });
+
+const noMetamask = () => toast.error('Please install Metamask!', {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    });
+
+    
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [currentAccount, setCurrentAccount] = useState("");
+
+  const connectWallet = async () => {
+    // This function connects the user's MetaMask wallet to the application.
+  
+    const { ethereum } = window;
+  
+    if (!ethereum) {
+      // Check if the user has MetaMask installed.
+      console.log("please install MetaMask");
+      noMetamask();
+      return
+    }
+  
+    const accounts = await ethereum.request({
+      // Request the user's accounts from MetaMask.
+      method: 'eth_requestAccounts'
+    });
+  
+    // Set the current account to the first account in the list.
+    setCurrentAccount(accounts[0]);
+  
+    // Display a notification to the user that their wallet has been connected.
+    notification();
+    console.log(currentAccount)
+  };
 
   return (
     <>
       {/* <div className="bg-white"> */}
+      <ToastContainer
+              position="top-center"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="light"
+            />
         <header className="absolute inset-x-0 top-0 z-50 max-w-9xl mx-auto mb-1 ">
           <nav
             className="flex items-center justify-between p-6 lg:px-8"
@@ -58,6 +125,10 @@ export default function Navbar() {
               <a
                 href="#"
                 className="text-sm px-2 py-2 font-medium leading-6 border rounded-md text-white bg-orange-600 hover:bg-orange-700"
+                onClick={(event) => {
+                  event.preventDefault();
+                  connectWallet();
+                }}
               >
                 Connect Wallet <span aria-hidden="true"></span>
               </a>
