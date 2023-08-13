@@ -13,7 +13,7 @@
       "Fully furnished and equipped kitchen",
       "Convenient access to public transportation"
     ],
-    "createdAt": ""
+    "price": "97"
   },
   {
     "id": "1331625",
@@ -29,7 +29,7 @@
       "Floor-to-ceiling windows for ample natural light",
       "Access to rooftop garden and fitness center"
     ],
-    "createdAt": ""
+    "price": "81"
   },
   {
     "id": "1112431",
@@ -45,7 +45,7 @@
       "Modern kitchen with premium appliances",
       "Private balcony overlooking the park"
     ],
-    "createdAt": ""
+    "price": "162"
   },
   {
     "id": "985237",
@@ -61,7 +61,7 @@
       "Open loft layout with mezzanine bedroom",
       "Walking distance to trendy cafes and shops"
     ],
-    "createdAt": ""
+    "price": "216"
   },
   {
     "id": "925927",
@@ -77,7 +77,7 @@
       "High-end finishes and designer furnishings",
       "24/7 concierge and security services"
     ],
-    "createdAt": ""
+    "price": "433"
   },
   {
     "id": "896464",
@@ -93,7 +93,7 @@
       "Access to on-site gym and business center",
       "All utilities and Wi-Fi included"
     ],
-    "createdAt": ""
+    "price": "108"
   },
   {
     "id": "789654",
@@ -109,7 +109,7 @@
       "Gourmet kitchen with granite countertops",
       "Access to private riverfront promenade"
     ],
-    "createdAt": ""
+    "price": "270"
   },
   {
     "id": "456321",
@@ -125,7 +125,7 @@
       "Contemporary finishes and fixtures",
       "Close proximity to cultural attractions"
     ],
-    "createdAt": ""
+    "price": "216"
   },
   {
     "id": "123789",
@@ -141,7 +141,7 @@
       "Spacious layout with natural light",
       "Access to communal outdoor spaces"
     ],
-    "createdAt": ""
+    "price": "162"
   },
   {
     "id": "987654",
@@ -157,7 +157,7 @@
       "Antique fixtures and vintage-inspired decor",
       "Walking distance to local museums and galleries"
     ],
-    "createdAt": ""
+    "price": "97"
   },
   {
     "id": "654987",
@@ -173,7 +173,7 @@
       "Spa-inspired bathroom with ocean views",
       "On-site beach club and water sports facilities"
     ],
-    "createdAt": ""
+    "price": "378"
   },
   {
     "id": "246813",
@@ -189,7 +189,7 @@
       "Contemporary kitchenette with appliances",
       "Walking distance to cafes and parks"
     ],
-    "createdAt": ""
+    "price": "54"
   },
   {
     "id": "135792",
@@ -205,11 +205,11 @@
       "Spacious living and dining areas for entertainment",
       "Private access to building's wellness center"
     ],
-    "createdAt": ""
+    "price": "190"
   },
   {
     "id": "579324",
-    "type": "Exquisite Duplex Apartment",
+    "type": "Duplex Apartment",
     "title": "Exquisite Apartment",
     "description": "Experience contemporary living in this modern exquisite apartment featuring a lofted design and sleek aesthetics.",
     "coverImage": "/assets/apartments/modern-duplex.jpeg",
@@ -221,7 +221,7 @@
       "Stainless steel kitchen appliances and granite countertops",
       "Close proximity to cultural attractions and theaters"
     ],
-    "createdAt": ""
+    "price": "220"
   },
   {
     "id": "741258",
@@ -237,7 +237,7 @@
       "Sunlit living room with garden views",
       "Nature trails and parks within walking distance"
     ],
-    "createdAt": ""
+    "price": "140"
   },
   {
     "id": "963852",
@@ -253,6 +253,6 @@
       "Open loft layout with gourmet kitchen and island",
       "Private art gallery for resident exhibitions"
     ],
-    "createdAt": ""
+    "price": "433"
   }
 ]
