@@ -3,12 +3,12 @@ pragma solidity ^0.8.9;
 
 import "hardhat/console.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URLStorage.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 
 
-contract Marketplace {
+contract Marketplace is ERC721URIStorage{
 
     address payable owner;
 
@@ -31,7 +31,7 @@ contract Marketplace {
         bool currentlyListed;
     }
 
-    mapping(uint=> ListedProperty) private idToListedProperty;
+    mapping(uint=> Property) private idToListedProperty;
 
     function updatePrice(uint _newPrice) public payable {
         require(owner == msg.sender,"Only owner can change price");
@@ -48,7 +48,7 @@ contract Marketplace {
     }
 
     function getListedForTokenId(uint tokenId) public view returns (Property memory) {
-        return idToListedToken[tokenId];
+        return idToListedProperty[tokenId];
     }
 
     function getCurrentToken() public view returns (uint) {
@@ -60,7 +60,7 @@ contract Marketplace {
         require(price > 0, "Make sure not negatve");
 
         _tokenIds.increment();
-        const currentTokenId = _tokenIds.current();
+        uint currentTokenId = _tokenIds.current();
         _safeMint(msg.sender, currentTokenId);
 
         _setTokenURI(currentTokenId, tokenURI);
@@ -70,7 +70,7 @@ contract Marketplace {
     }
 
     function createListedToken(uint tokenId, uint price) private {
-        idToListedToken[tokenId] = Property(
+        idToListedProperty[tokenId] = Property(
             tokenId,
             payable(address(this)),
             payable(msg.sender),
@@ -83,18 +83,18 @@ contract Marketplace {
 
     function getAllProperty() public view returns(Property[] memory) {
         uint propertyCount = _tokenIds.current();
-        Property[] memory propertyToken = new Property[][propertyCount];
+        Property[] memory propertyToken = new Property[](propertyCount);
 
         uint currentIndex = 0;
 
         for(uint i=0; i < propertyCount; i++) {
             uint currentId = i + 1;
             Property storage currentProperty = idToListedProperty[currentId];
-            tokens[currentId] = currentProperty;
+            propertyToken[currentIndex] = currentProperty;
             currentIndex += 1;
         }
 
-        return propertyTokens;
+        return propertyToken;
     }
 
     function executeSale(uint tokenId) public payable {
@@ -107,9 +107,10 @@ contract Marketplace {
         idToListedProperty[tokenId].seller = payable(msg.sender);
         _itemsSold.increment();
 
+        approve(address(this), tokenId);
+
         _transfer(address(this), msg.sender, tokenId);
         
-        approve(address(this), tokenId);
 
         payable(owner).transfer(listPrice);
         payable(seller).transfer(msg.value);
