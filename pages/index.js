@@ -11,15 +11,15 @@ import { getAllProperty } from "@/content/fetcher"
 
 
 export default function Home({properties}) {
-  return (
-    <>
-      <Layout>
-            <Hero />
-            <Breadcrumbs />
-            <Items properties={properties} />
-      </Layout>
-    </>
-  )
+  
+    return (
+      <>
+          <Layout>
+              <Hero />
+              <Items properties={properties} />
+          </Layout>
+      </>
+    )
 }
 
 
@@ -28,7 +28,7 @@ export async function getStaticProps() {
   const { data } = getAllProperty()
   return {
     props: {
-      properties: data
+      properties: data,
     }
   }
 }

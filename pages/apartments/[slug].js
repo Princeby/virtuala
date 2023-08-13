@@ -19,7 +19,7 @@ export default function Apartment({property}) {
             <BulletPoints
                 points={property.features}    
             />
-            <Property />
+            <Property status={true} />
             <Modal />
         </Layout>
     )
